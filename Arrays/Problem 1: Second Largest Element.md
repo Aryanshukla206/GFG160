@@ -57,3 +57,32 @@ public class Solution {
         System.out.println(solution.getSecondLargest(arr3)); // Output: -1
     }
 }
+
+
+### Code:
+public int getSecondLargest(int[] arr) {
+        int first = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+
+        // Traverse the array to find the first and second largest elements
+        for (int num : arr) {
+            if (num > first) {
+                second = first;  // Update second largest
+                first = num;     // Update largest
+            } else if (num > second && num < first) {
+                second = num;    // Update second largest if it's less than first
+            }
+        }
+
+        // If no valid second largest exists, return -1
+        return (second == Integer.MIN_VALUE) ? -1 : second;
+    }
+
+
+
+
+
+| **Comparison Approach**    | **Time Complexity** | **Space Complexity** |
+|----------------------------|----------------------|-----------------------|
+| Sorting-Based (First)       | O(n log n)          | O(1)                  |
+| Optimized Single Pass       | O(n)                | O(1)                  |
