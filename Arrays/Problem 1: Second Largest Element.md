@@ -58,8 +58,10 @@ public class Solution {
     }
 }
 
+## Solution 2: One Pass Approach
 
 ### Code:
+```java
 public int getSecondLargest(int[] arr) {
         int first = Integer.MIN_VALUE;
         int second = Integer.MIN_VALUE;
