@@ -53,12 +53,37 @@ class Solution {
         }
     }
 }
+
 ```
+---
 ## Approach 1: Brute Force with Nested Loops
 
 ### Code:
 ```java
+class Solution {
+    void pushZerosToEnd(int[] arr) {
+        int count = 0; // Keeps track of the position to place non-zero elements
 
+        // Traverse the array
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                // Swap current non-zero with the count index
+                swap(arr, i, count);
+                count++;
+            }
+        }
+    }
 
+    void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
 
 ```
+---
+| **Approach**               | **Time Complexity** | **Space Complexity** |
+|----------------------------|----------------------|-----------------------|
+| Brute Force (Nested Loops) | O(n²)               | O(1)                  |
+| Optimized Single Pass       | O(n)                | O(1)                  |
