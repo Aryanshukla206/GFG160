@@ -21,8 +21,8 @@ Given an array of integers `arr[]`, reverse the array in place.
 `[1]`  
 
 ### Constraints:
-- **Array Size**: \(1 \leq \text{arr.length} \leq 10^5\)
-- **Array Elements**: \(0 \leq \text{arr[i]} \leq 10^5\)
+1<=arr.size()<=105
+0<=arr[i]<=105
 
 
 ---
@@ -61,7 +61,7 @@ class Solution {
 ```
 ---
 
-## Approach 1: Iterative Two-Pointer Method
+## Approach 2: Recursive Approach 
 
 ```java
 public void reverseArray(int arr[], int start, int end) {
@@ -79,3 +79,10 @@ public void reverseArray(int arr[], int start, int end) {
     }
 ```
 ---
+### Time and Space Complexity:
+
+| **Approach**           | **Time Complexity** | **Space Complexity** |
+|------------------------|---------------------|----------------------|
+| Reversal using two pointers | \( O(n) \)        | \( O(1) \)           |
+| Reversal using extra array  | \( O(n) \)        | \( O(n) \)           |
+
