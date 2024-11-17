@@ -23,9 +23,9 @@ Given an array `arr[]`, push all the zeros in the array to the **end** while mai
 ---
 
 ## Constraints
-
-- \( 1 \leq arr.size() \leq 10^5 \)
+- \( 1 \leq arr.length \leq 10^5 \)
 - \( 0 \leq arr[i] \leq 10^5 \)
+
 
 ---
 
