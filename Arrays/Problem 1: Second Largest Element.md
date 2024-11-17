@@ -57,6 +57,7 @@ public class Solution {
         System.out.println(solution.getSecondLargest(arr3)); // Output: -1
     }
 }
+```
 ---
 ## Solution 2: One Pass Approach
 
@@ -80,7 +81,7 @@ public int getSecondLargest(int[] arr) {
         return (second == Integer.MIN_VALUE) ? -1 : second;
     }
 
-
+```
 
 ---
 
