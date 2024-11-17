@@ -30,8 +30,9 @@ Given an array `arr[]`, push all the zeros in the array to the **end** while mai
 
 ---
 
-## Approach 2: Single Pass
 
+
+## Approach 1: Brute Force with Nested Loops
 ### Code:
 ```java
 class Solution {
@@ -57,8 +58,7 @@ class Solution {
 
 ```
 ---
-## Approach 1: Brute Force with Nested Loops
-
+## Approach 2: Single Pass
 ### Code:
 ```java
 class Solution {
