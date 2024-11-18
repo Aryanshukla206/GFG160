@@ -51,7 +51,7 @@ class Solution {
 ```
 ---
 
-## Approach 1: Naive Rotation (Iterative)
+## Approach 2: triple Reverse
 ### Code:
 ```java
 class Solution {
@@ -81,12 +81,13 @@ class Solution {
     }
 }
 ```
----## Complexity Analysis:
+---
+## Complexity Analysis:
 
 | **Approach**                  | **Time Complexity** | **Space Complexity** |
 |-------------------------------|----------------------|-----------------------|
 | Naive Iterative Rotation       | \( O(d \times n) \)  | \( O(1) \)            |
 | Optimized Reversal Approach    | \( O(n) \)           | \( O(1) \)            |
----
+
 
 
