@@ -26,8 +26,8 @@ Given an unsorted array `arr[]`, rotate the array to the left (counter-clockwise
 ---
 
 ## Constraints:
-- \( 1 \leq \text{arr.length}, d \leq 10^5 \)
-- \( 0 \leq \text{arr[i]} \leq 10^5 \)
+1 <= arr.size(), d <= 105
+0 <= arr[i] <= 105
 
 ---
 
@@ -86,7 +86,7 @@ class Solution {
 
 | **Approach**                  | **Time Complexity** | **Space Complexity** |
 |-------------------------------|----------------------|-----------------------|
-| Naive Iterative Rotation       | \( O(d \times n) \)  | \( O(1) \)            |
+| Naive Iterative Rotation       | \( O(d * n) \)  | \( O(1) \)            |
 | Optimized Reversal Approach    | \( O(n) \)           | \( O(1) \)            |
 
 
