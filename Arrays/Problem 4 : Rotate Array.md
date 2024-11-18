@@ -26,7 +26,7 @@ Given an unsorted array `arr[]`, rotate the array to the left (counter-clockwise
 ---
 
 ## Constraints:
-1 <= arr.size(), d <= 105
+1 <= arr.size(), d <= 105 **
 0 <= arr[i] <= 105
 
 ---
