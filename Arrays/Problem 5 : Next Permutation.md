@@ -35,8 +35,8 @@ Given an array of integers `arr[]` representing a permutation, implement the nex
 
 ## Constraints
 
-- \(1 \leq arr.length \leq 10^5\)  
-- \(1 \leq arr[i] \leq 10^5\)  
+1 ≤ arr.size() ≤ 105
+1 ≤ arr[i] ≤ 105
 
 ---
 
