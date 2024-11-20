@@ -23,12 +23,12 @@ You are given an array of integers `arr[]` where each number represents a vote f
 
 ---
 
-### Approach 1: Boyer-Moore Majority Vote Algorithm
-This algorithm finds potential majority elements and validates them in a second pass.
+### Approach 1: Boyer-Moore Majority Vote Algorithm  
+This algorithm finds potential majority elements and validates them in a second pass.  
 
 #### Steps:
-1. Identify up to 2 potential candidates using the Boyer-Moore voting mechanism.
-2. Validate the candidates by counting their occurrences.
+1. Identify up to 2 potential candidates using the Boyer-Moore voting mechanism.  
+2. Validate the candidates by counting their occurrences.  
 
 ```java
 class Solution {
@@ -75,8 +75,8 @@ class Solution {
 ### Approach 2: HashMap Approach
 
 ## Steps:
-Count occurrences of each number using a HashMap.
-Iterate through the map and add numbers with count > 
+Count occurrences of each number using a HashMap.  
+Iterate through the map and add numbers with count > n/3  
 ```java
 class Solution {
     public List<Integer> findMajority(int[] nums) {
