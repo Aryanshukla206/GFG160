@@ -18,7 +18,7 @@ You are given an array of integers `arr[]` where each number represents a vote f
 ---
 
 ### Constraints:
-1 <= arr.size() <= 106
+1 <= arr.size() <= 106  
 -109 <= arr[i] <= 109
 
 ---
